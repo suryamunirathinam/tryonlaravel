@@ -16,7 +16,9 @@
         <li class="{{ Request::is('services') ? 'active' : '' }}">
             <a class="nav-link" href="{{ url('/services') }}">Services</a>
         </li>
-        
+        <li class="{{ Request::is('posts') ? 'active' : '' }}">
+          <a class="nav-link" href="{{ url('/posts') }}">Blog</a>
+      </li>
         
       </ul>
       <form class="form-inline my-2 my-lg-0">
